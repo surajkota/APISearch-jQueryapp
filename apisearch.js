@@ -2,7 +2,7 @@
 function searchTweets(){
 	var keyword = document.getElementById("keywordTextbox").value;
 	localStorage.setItem("sstring", keyword);
-	window.location.href='searchResult.html?searchstring='+keyword;
+	window.location.href='searchResult.html';
 }
 
 function showResults(response){
